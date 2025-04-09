@@ -13,11 +13,11 @@ A full-stack URL shortener application where users can register, log in, shorten
 1. Clone the repository and navigate to the frontend folder:
 
    ```bash
-   git clone https://github.com/ksingh-08/urlshortenerapp.git
+   git clone https://github.com/harshitaa18/urlshortener.git
    cd urlclient  
    
 2. Create a .env file inside the urlclient folder:
-   VITE_API_BASE_URL=https://urlserver-c4se.onrender.com  
+   VITE_API_BASE_URL=https://urlshortenerserver-30c6.onrender.com
 
 3. Install dependencies and start the frontend: 
     - npm install  
@@ -30,6 +30,6 @@ A full-stack URL shortener application where users can register, log in, shorten
 
 ## Deployed Links:
 
-1. Frontend (Deployed app link) : https://urlshort-pied-nine.vercel.app/
+1. Frontend (Deployed app link) : https://urlshortenerapp-two.vercel.app/
 2. Backend : https://urlshortenerserver-30c6.onrender.com
 
