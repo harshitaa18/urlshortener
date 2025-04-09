@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import React from 'react';
 
-const BACKEND_URL = 'https://urlserver-c4se.onrender.com'; // Replace with your actual backend URL
+const BACKEND_URL = import.meta.env.VITE_API_URL; // Replace with your actual backend URL
 
 const DashboardAnalytics = () => {
   const [dashboardData, setDashboardData] = useState(null);

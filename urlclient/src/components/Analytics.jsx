@@ -11,7 +11,8 @@ const Analytics = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const token = localStorage.getItem('token');
-  const BACKEND_URL = 'https://urlserver-c4se.onrender.com';
+  const BACKEND_URL = import.meta.env.VITE_API_URL;
+  
   useEffect(() => {
     const fetchAnalytics = async () => {
       try {

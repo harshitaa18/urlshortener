@@ -6,7 +6,7 @@ const LinksList = ({ links = [], onDelete }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
   const [showQR, setShowQR] = useState(null);
-  const frontendUrl = import.meta.env.VITE_FRONTEND_URL;
+  const frontendUrl = import.meta.env.VITE_API_URL;
   const linksPerPage = 5;
   
   // Filter links based on search term
